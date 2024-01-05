@@ -104,14 +104,14 @@ function DrawerAppBar(props) {
           </Typography>*/}
             <div className='container1 pup'>
               <div className='row1 tipi'>
-                <Link href="#" className='lip fi'>
+                <Link href="https://www.dualbit.exchange/" className='lip fi'>
                   <img src={logo}></img>
                 </Link>
                   <Link href="https://dualbit.gitbook.io/dualbit/" className='itu non'>
                     <Typography className=''>Docs</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
-                    <Typography className=''>Bridge (coming soon)</Typography>
+                    <Typography className=''>Bridge</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
                     <Typography className=''>Staking (coming soon)</Typography>
