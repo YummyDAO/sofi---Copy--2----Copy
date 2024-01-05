@@ -19,7 +19,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 }
 .hero-section {
     overflow: hidden;
-    padding: 78px 0 45px;
+    padding: 48px 0 45px;
     position: relative;
 }
 .bridge{
@@ -57,7 +57,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
     color: #FFFFFF !important;
 }
-.css-q8hpuo-MuiFormControl-root{
+.css-q8hpuo-MuiFormControl-root, .css-tzsjye{
     border-radius: 1rem !important;
     background: #151515 !important;
     border: 1px solid #beb6b6 !important;
