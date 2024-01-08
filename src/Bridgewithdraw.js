@@ -182,25 +182,14 @@ function DrawerAppBar(props) {
           <div className='container1'>
             <div className='row1'>
               <div className='bridge'>
-                <Typography className='bridge-text'>Bridge</Typography>
+                <Typography className='bridge-text'>Bridge (Withdraw)</Typography>
                 <Typography className='w1-bridgei ti2'>Dualbit is the first ever dual-sided bridge designed for easy cross network transfers between DRC20 and ERC20 tokens.</Typography>
                 <Typography className='w1-bridge ml'>Send</Typography>
                 <div className='from'>
-                <Box sx={{ minWidth: 120 }} className='meit'>
-                  <FormControl fullWidth >
-                    <InputLabel id="demo-simple-select-label">Token</InputLabel>
-                    <Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
-                      value={age}
-                      label="Age"
-                      onChange={handleChange1}
-                    >
-                      <MenuItem value={1}><img className='with' src={dubi}></img>  &nbsp; Dubi</MenuItem>
-                    </Select>
-                  </FormControl>
+                <Box sx={{ minWidth: 120 }} className='meit1'>
+                  <TextField id="outlined-basic" label="Enter amount" variant="outlined" className=''/>
                 </Box>
-                <Box sx={{ minWidth: 120 }} className='meit'>
+                <Box sx={{ minWidth: 120 }} className='meit2'>
                   <FormControl fullWidth>
                     <InputLabel id="demo-simple-select-label">From</InputLabel>
                     <Select
@@ -211,8 +200,8 @@ function DrawerAppBar(props) {
                       onChange={handleChange2}
                     >
                       <MenuItem value={1}>
-                      <img className='with' src={doge}></img>  &nbsp;
-                        Doge
+                      <img className='with' src={eth}></img>  &nbsp;
+                        Ethereum
                         </MenuItem>
                     </Select>
                   </FormControl>
@@ -241,7 +230,7 @@ function DrawerAppBar(props) {
                         label="Age"
                         onChange={handleChange3}
                       >
-                      <MenuItem value={3}><img className='with' src={eth}></img> &nbsp;Ethereum</MenuItem>
+                      <MenuItem value={3}><img className='with' src={doge}></img> &nbsp;Doge</MenuItem>
                       </Select>
                     </FormControl>
                   </Box>
@@ -252,7 +241,7 @@ function DrawerAppBar(props) {
                   <div className='ri1'>
                   <InfoOutlinedIcon/>
                   </div>
-                  <span className='w1-bridge22 ri'>Bridging takes between 5-10 mins for DRC20 TO ERC20 transfers.</span>
+                  <span className='w1-bridge22 ri'>Bridging takes between 5-10 mins for ERC20 TO DRC20 transfers.</span>
                 </div>
                 <Button  className='btn--primary' variant="contained" disabled>Continue</Button>
               </div>
