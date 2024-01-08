@@ -113,7 +113,7 @@ function DrawerAppBar(props) {
                   <Link href="/" className='itu non'>
                     <Typography className=''>Bridge</Typography>
                   </Link>
-                  <Link href="/withdraw" className='itu'>
+                  <Link href="/withdraw" className='itu non'>
                     <Typography className=''>Bridge (Withdraw)</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
