@@ -24,6 +24,9 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     padding: 68px 0 45px;
     position: relative;
 }
+.css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: none !important;
+}
 .css-1ald77x.Mui-focused, .Mui-focused {
     color: inherit !important;
 }
