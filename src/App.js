@@ -22,7 +22,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';  
 import doge from './Doge_Coin.svg'
-import eth from './Ethereum.png'
+import eth from './eth_Icon.svg'
 import arrow from "./arrow.svg"
 import favicon from "./logo12.png"
 import burger from "./burger.svg"
@@ -237,7 +237,7 @@ function DrawerAppBar(props) {
                   </Box>
                 </div>
                 <Typography className='w1-bridge ml'>Recipent Address</Typography>
-                <TextField id="outlined-basic" label="Enter address" variant="outlined" className='tit'/>
+                <TextField id="outlined-basic" label="Enter your doge address" variant="outlined" className='tit'/>
                 <div className='lastdiv'>
                   <div className='ri1'>
                   <InfoOutlinedIcon/>

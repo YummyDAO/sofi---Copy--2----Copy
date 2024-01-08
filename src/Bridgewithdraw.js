@@ -22,7 +22,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';  
 import doge from './Doge_Coin.svg'
-import eth from './Ethereum.png'
+import eth from './eth_Icon.svg'
 import arrow from "./arrow.svg"
 import favicon from "./logo12.png"
 import burger from "./burger.svg"
