@@ -107,9 +107,6 @@ function DrawerAppBar(props) {
                 <Link href="https://www.dualbit.exchange/" className='lip fi'>
                   <img src={logo}></img>
                 </Link>
-                  <Link href="https://dualbit.gitbook.io/dualbit/" className='itu non'>
-                    <Typography className=''>Docs</Typography>
-                  </Link>
                   <Link href="#" className='itu non'>
                     <Typography className=''>Bridge</Typography>
                   </Link>

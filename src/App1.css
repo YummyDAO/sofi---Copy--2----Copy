@@ -15,8 +15,8 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden !important; /* Hide vertical scrollbar */
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */
     /*background: #FFF !important;*/
 }
 .hero-section {
@@ -25,7 +25,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     position: relative;
 }
 .bridge{
-    width: 65%;
+    width: 55%;
     padding: 3rem;
     border-radius: 1rem;
     justify-content: center;
@@ -60,7 +60,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     color: #FFFFFF !important;
 }
 .css-q8hpuo-MuiFormControl-root, .css-tzsjye{
-    border-radius: 1rem !important;
+    border-radius: 0.6rem !important;
     background: #151515 !important;
     border: 1px solid #beb6b6 !important;
 }
@@ -71,18 +71,18 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     color: #FFFFFF !important;
 }
 .tit{
-    margin-bottom: 2rem !important;
+    margin-bottom: 1rem !important;
 }
 .bridge-text{
     -webkit-text-fill-color: transparent;
     background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
     -webkit-background-clip: text;
     font-family: Space Grotesk,sans-serif !important;
-    font-size: 48px !important;
+    font-size: 40px !important;
     font-weight: 700 !important;
     letter-spacing: -2px !important;
     margin-bottom: 20px !important;
-    line-height: 67px !important;
+    line-height: 40px !important;
     max-width: 521px !important;
     position: relative !important;
 }
@@ -307,7 +307,7 @@ a {
     color: #070707 !important;
     padding: 14px 16px !important;
     transition: background .3s cubic-bezier(.25,.46,.45,.94) !important;
-    border-radius: 1rem !important;
+    border-radius: 0.6rem !important;
     font-weight: 700 !important;
 }
 .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
