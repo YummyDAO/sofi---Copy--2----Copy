@@ -24,6 +24,9 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     padding: 68px 0 45px;
     position: relative;
 }
+.css-1x5jdmq, .css-qiwgdb{
+    padding: 14px 14px !important;
+}
 .bridge{
     width: 48%;
     padding: 2rem;
