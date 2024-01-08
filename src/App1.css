@@ -21,7 +21,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 }
 .hero-section {
     overflow: hidden;
-    padding: 48px 0 45px;
+    padding: 68px 0 45px;
     position: relative;
 }
 .bridge{
@@ -78,7 +78,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     color: #FFFFFF !important;
 }
 .tit{
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.4rem !important;
 }
 .bridge-text{
     -webkit-text-fill-color: transparent;
@@ -173,6 +173,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     display: flex;
     gap: 14px;
     padding-left: 2rem;
+    align-items: center !important;
 }
 
 .socials-link-wg a.social-link {
