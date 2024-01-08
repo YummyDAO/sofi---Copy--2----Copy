@@ -75,7 +75,7 @@ function DrawerAppBar(props) {
         <Typography className=''>Bridge (Withdraw)</Typography>
       </Link>
       <Link href="#" className='itu'>
-        <Typography className=''>Staking (coming soon)</Typography>
+        <Typography className='fir'>Staking </Typography>
       </Link>
 
       <div className='bottom'>
@@ -117,7 +117,7 @@ function DrawerAppBar(props) {
                     <Typography className=''>Bridge (Withdraw)</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
-                    <Typography className=''>Staking (coming soon)</Typography>
+                    <Typography className='fir'>Staking</Typography>
                   </Link>
                 <div className='btn-wrap1 non'>
                   <a href="" class="btn btn--primary-border non">Connect Wallet</a>

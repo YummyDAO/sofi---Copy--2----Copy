@@ -24,6 +24,9 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     padding: 68px 0 45px;
     position: relative;
 }
+.fir{
+    color: #807878d7;
+}
 .css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline{
     border-color: rgba(0, 0, 0, 0.23) !important;
 }
@@ -70,6 +73,9 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 .meit{
     width: 48%;
     margin-bottom: 0.8rem !important;
+}
+.css-qiwgdb{
+    color: #fff;
 }
 .meit1{
     width: 64%;
