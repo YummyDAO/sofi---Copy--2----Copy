@@ -26,8 +26,8 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 }
 .bridge{
     width: 55%;
-    padding: 3rem;
-    border-radius: 1rem;
+    padding: 2rem;
+    border-radius: 0.6rem;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -51,6 +51,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 }
 .meit{
     width: 48%;
+    margin-bottom: 0.8rem !important;
 }
 .from{
     display: flex;
