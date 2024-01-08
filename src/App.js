@@ -69,7 +69,10 @@ function DrawerAppBar(props) {
         <Typography className=''>Docs</Typography>
       </Link>
       <Link href="#" className='itu'>
-        <Typography className=''>Bridge</Typography>
+        <Typography className=''>Bridge (Deposit)</Typography>
+      </Link>
+      <Link href="#" className='itu'>
+        <Typography className=''>Bridge (Withdraw)</Typography>
       </Link>
       <Link href="#" className='itu'>
         <Typography className=''>Staking (coming soon)</Typography>
