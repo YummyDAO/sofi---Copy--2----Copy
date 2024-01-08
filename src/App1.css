@@ -24,8 +24,14 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     padding: 68px 0 45px;
     position: relative;
 }
+.css-1ald77x.Mui-focused, .Mui-focused {
+    color: inherit !important;
+}
 .css-1x5jdmq, .css-qiwgdb{
     padding: 14px 14px !important;
+}
+.css-1v4ccyo{
+    border-color: none;
 }
 .bridge{
     width: 48%;
