@@ -399,10 +399,23 @@ a {
         padding: 0;
     }
     .hero-section{
-        padding: 40px 0 20px !important;
+        padding: 80px 0 20px !important;
     }
     .bridge{
-        width: 95%;
-        padding: 1.5rem !important;
+        width: 100%;
+        padding: 1.2rem !important;
+    }
+    .w1-bridgei{
+        font-size: 0.8rem !important;
+        line-height: 0.8rem !important;
+    }
+    .bridge-text{
+        font-size: 35px !important;
+    }
+    .meit1{
+        width: 50% !important;
+    }
+    .meit2{
+        width: 21% !important;
     }
 }
