@@ -62,14 +62,14 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Link href="#" className='lip fi'>
+      <Link href="https://dualbit.exchange/" className='lip fi'>
         <img src={logo}></img>
       </Link>
       <Link href="https://dualbit.gitbook.io/dualbit/" className='itu'>
         <Typography className=''>Docs</Typography>
       </Link>
       <Link href="#" className='itu'>
-        <Typography className=''>Bridge (coming soon)</Typography>
+        <Typography className=''>Bridge</Typography>
       </Link>
       <Link href="#" className='itu'>
         <Typography className=''>Staking (coming soon)</Typography>
