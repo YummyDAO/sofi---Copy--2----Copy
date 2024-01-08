@@ -246,7 +246,7 @@ function DrawerAppBar(props) {
                   <div className='ri1'>
                   <InfoOutlinedIcon/>
                   </div>
-                  <span className='w1-bridge ri'>Bridging takes between 5-10 mins for DRC20 TO ERC20 transfers.</span>
+                  <span className='w1-bridge22 ri'>Bridging takes between 5-10 mins for DRC20 TO ERC20 transfers.</span>
                 </div>
                 <Button  className='btn--primary' variant="contained" disabled>Continue</Button>
               </div>

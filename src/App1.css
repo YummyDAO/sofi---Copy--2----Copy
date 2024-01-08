@@ -103,6 +103,18 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     max-width: 521px !important;
     position: relative !important;
 }
+.w1-bridge22{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
+    -webkit-background-clip: text;
+    font-family: Space Grotesk,sans-serif !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    line-height: 0.7rem !important;
+    margin-bottom: 10px !important;
+    max-width: 521px !important;
+    position: relative !important;
+}
 .w1-bridgei{
     -webkit-text-fill-color: transparent;
     background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
@@ -305,7 +317,7 @@ a {
     background: linear-gradient(219deg, #F3C427 -345.94%, #FDF8B8 -132.67%, #ECC231 109.03%, #C8952E 364.95%);
     border: 0;
     color: #070707 !important;
-    padding: 14px 16px !important;
+    padding: 7px 16px !important;
     transition: background .3s cubic-bezier(.25,.46,.45,.94) !important;
     border-radius: 0.6rem !important;
     font-weight: 700 !important;
