@@ -219,16 +219,6 @@ function DrawerAppBar(props) {
                 </Box>
 
                 </div>
-                  <IconButton
-                  color="inherit"
-                  aria-label="open drawer"
-                  edge="end"
-                  onClick={handleDrawerToggle}
-                  sx={{ mr: 2, display: { sm: 'none' } }}
-                  className=''
-                  >
-                    <SwapCallsOutlinedIcon />
-                  </IconButton>
                   <Typography className='w1-bridge ml'>To</Typography>
                 <div className='to'>
                   <Box sx={{ minWidth: 120 }}>
