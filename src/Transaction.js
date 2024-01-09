@@ -190,25 +190,25 @@ function DrawerAppBar(props) {
                   <Typography className='w1-bridgei33'>Dubi</Typography>
                 </div>
                 <Typography className='w1-bridgei ti2'>To this address</Typography>
-                <Typography className='ti2'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
+                <Typography className='ti2 lo21'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
                 <Typography className='w1-bridgei ti2'>Recipent address</Typography>
-                <Typography className='ti2'>0x0000000000000000000000000000000000000000</Typography>
+                <Typography className='ti2 lo21'>0x0000000000000000000000000000000000000000</Typography>
                 <div className='tyy jbet'>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress />
+                      <CircularProgress color="success"/>
                     </Box>
                     <Typography className='w1-bridgei'>Awaiting Deposit</Typography>
                   </div>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress />
+                      <CircularProgress color="success"/>
                     </Box>
                     <Typography className='w1-bridgei'>Confirmed Deposit</Typography>
                   </div>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress />
+                      <CircularProgress color="success"/>
                     </Box>
                     <Typography className='w1-bridgei'>Sending to you</Typography>
                   </div>
