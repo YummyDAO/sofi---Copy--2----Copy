@@ -160,6 +160,17 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     max-width: 521px !important;
     position: relative !important;
 }
+.w1-bridgei33{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
+    -webkit-background-clip: text;
+    font-family: Space Grotesk,sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    line-height: 1.5rem !important;
+    max-width: 521px !important;
+    position: relative !important;
+}
 .token{
     width: 25%;
 }
@@ -380,6 +391,18 @@ a {
 .tipi{
     width: 100%;
     justify-content: space-between;
+}
+
+.tyy{
+    display: flex;
+    align-items: center;
+}
+.jbet{
+    justify-content: space-between;
+}
+.ty2{
+    width: 2rem;
+    height: 2rem;
 }
 
 @media (max-width: 860px){

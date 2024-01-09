@@ -3,6 +3,7 @@ import OrdHome from "./OrdHome"
 import Genesis from "./Genesis"
 import Bridgewithdraw from "./Bridgewithdraw"
 import App from "./App"
+import Transaction from "./Transaction"
 
 function Appnew() {
   return (
@@ -13,6 +14,7 @@ function Appnew() {
         <Route path="/scroll" element={ <Scroll/> } />
         <Route path="/signin" element={ <Signin/> } />*/}
         <Route path="/withdraw" element={ <Bridgewithdraw/> } />
+        <Route path="/transaction" element={ <Transaction/> } />
         <Route path="/" element={ <App/> } />
       </Routes>
     </div>
