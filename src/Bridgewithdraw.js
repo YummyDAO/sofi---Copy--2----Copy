@@ -69,10 +69,10 @@ function DrawerAppBar(props) {
         <Typography className=''>Docs</Typography>
       </Link>
       <Link href="/" className='itu'>
-        <Typography className=''>Bridge (Deposit)</Typography>
+        <Typography className=''>Bridge</Typography>
       </Link>
       <Link href="/withdraw" className='itu'>
-        <Typography className=''>Bridge (Withdraw)</Typography>
+        <Typography className=''>Withdraw</Typography>
       </Link>
       <Link href="#" className='itu'>
         <Typography className='fir'>Staking </Typography>
@@ -114,7 +114,7 @@ function DrawerAppBar(props) {
                     <Typography className=''>Bridge</Typography>
                   </Link>
                   <Link href="/withdraw" className='itu non'>
-                    <Typography className=''>Bridge (Withdraw)</Typography>
+                    <Typography className=''>Withdraw</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
                     <Typography className='fir'>Staking</Typography>
@@ -182,7 +182,7 @@ function DrawerAppBar(props) {
           <div className='container1'>
             <div className='row1'>
               <div className='bridge'>
-                <Typography className='bridge-text'>Bridge (withdraw)</Typography>
+                <Typography className='bridge-text'>Withdraw</Typography>
                 <Typography className='w1-bridgei ti2'>Dualbit is the first ever dual-sided bridge designed for easy cross network transfers between DRC20 and ERC20 tokens.</Typography>
                 <Typography className='w1-bridge ml'>Send</Typography>
                 <div className='from'>
