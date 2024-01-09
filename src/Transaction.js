@@ -190,9 +190,9 @@ function DrawerAppBar(props) {
                   <Typography className='w1-bridgei33'>Dubi</Typography>
                 </div>
                 <Typography className='w1-bridgei'>To this address</Typography>
-                <Typography className='ti2'>DNzoAkcwZuuFHE4xhwdUfzd2NVAkTgbbzt</Typography>
+                <Typography className='ti2'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
                 <Typography className='w1-bridgei'>Recipent address</Typography>
-                <Typography className='ti2'>0xbEF1d018cC4A7c61F788CC106c31C3E2B17C4558</Typography>
+                <Typography className='ti2'>0x0000000000000000000000000000000000000000</Typography>
                 <div className='tyy jbet'>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>

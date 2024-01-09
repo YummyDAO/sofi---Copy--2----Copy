@@ -239,7 +239,7 @@ function DrawerAppBar(props) {
                   </Box>
                 </div>
                 <Typography className='w1-bridge ml'>Recipent Address</Typography>
-                <TextField id="outlined-basic" label="Enter your doge address" variant="outlined" className='tit'/>
+                <TextField id="outlined-basic" label="Enter your ethereum address" variant="outlined" className='tit'/>
                 <div className='lastdiv'>
                   <div className='ri1'>
                   <InfoOutlinedIcon/>
