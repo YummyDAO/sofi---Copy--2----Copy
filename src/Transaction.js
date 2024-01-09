@@ -189,9 +189,9 @@ function DrawerAppBar(props) {
                   <img src={dubi} className='ty2'></img>
                   <Typography className='w1-bridgei33'>Dubi</Typography>
                 </div>
-                <Typography className='w1-bridgei'>To this address</Typography>
+                <Typography className='w1-bridgei ti2'>To this address</Typography>
                 <Typography className='ti2'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
-                <Typography className='w1-bridgei'>Recipent address</Typography>
+                <Typography className='w1-bridgei ti2'>Recipent address</Typography>
                 <Typography className='ti2'>0x0000000000000000000000000000000000000000</Typography>
                 <div className='tyy jbet'>
                   <div className='tyy1'>
