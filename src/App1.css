@@ -286,6 +286,10 @@ a {
     width: 100% !important;
 }
 
+.Mui-focused, .Mui-focused, .css-1ald77x.Mui-focused{
+    color: #beb6b6 !important;
+}
+
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root, .css-i44wyl{
     border: 1px solid #beb6b6 !important;
     border-radius: 0.6rem;
