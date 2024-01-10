@@ -274,7 +274,7 @@ a {
     padding: 14px 16px 15px;
     transition: background .3s cubic-bezier(.25,.46,.45,.94),color .3s cubic-bezier(.25,.46,.45,.94);
 }
-.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root, .css-5poeop{
     background: transparent !important;
     box-shadow: none !important;
 }
@@ -286,7 +286,7 @@ a {
     width: 100% !important;
 }
 
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root, .css-i44wyl{
     border: 1px solid #beb6b6 !important;
     border-radius: 0.6rem;
 }
