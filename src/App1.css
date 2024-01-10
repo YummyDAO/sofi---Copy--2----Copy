@@ -276,11 +276,14 @@ a {
 }
 .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
     background: transparent !important;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .container1 .row1 .btn-wrap a {
     padding: 14px 21px 15px;
+}
+.css-19kzrtu{
+    width: 100% !important;
 }
 
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
