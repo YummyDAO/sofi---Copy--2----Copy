@@ -12,7 +12,7 @@ function Appnew() {
         <Route path="/scroll" element={ <Scroll/> } />
         <Route path="/signin" element={ <Signin/> } />*/}
         <Route path="/withdraw" element={ <Bridgewithdraw/> } />
-        <Route path="/transaction" element={ <Transaction/> } />
+        <Route path="/transaction/:id" element={ <Transaction/> } />
         <Route path="/" element={ <App/> } />
       </Routes>
     </div>

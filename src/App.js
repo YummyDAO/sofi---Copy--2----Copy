@@ -1,6 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
+import { useNavigate } from "react-router-dom";
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
@@ -37,6 +38,7 @@ import SwapCallsOutlinedIcon from '@mui/icons-material/SwapCallsOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
+var randomstring = require("randomstring");
 
 const drawerWidth = 240;
 const navItems = ['TWITTER', 'DISCORD', 'DOCS'];
@@ -61,6 +63,16 @@ function DrawerAppBar(props) {
   const handleChange3 = (event) => {
     setAge2(event.target.value);
   };
+
+  let navigate = useNavigate();
+
+  async function Check22() {
+    const txid = randomstring.generate(12);
+    console.log(txid, 'txid')
+    navigate("/transaction/" + txid);
+  }
+
+
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
@@ -244,7 +256,7 @@ function DrawerAppBar(props) {
                   </div>
                   <span className='w1-bridge22 ri'>Bridging takes between 5-10 mins for DRC20 TO ERC20 transfers.</span>
                 </div>
-                <a  href='/transaction' className='btn--primary' variant="contained" disabled>Continue</a>
+                <a  /*href='/transaction'*/ onClick={Check22} className='btn--primary' variant="contained" disabled>Continue</a>
               </div>
             </div>
           </div>
