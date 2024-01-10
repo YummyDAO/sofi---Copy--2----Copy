@@ -61,6 +61,8 @@ function DrawerAppBar(props) {
     setAge2(event.target.value);
   };
 
+  const address = "0x0000000000000000000000000000000000000000 "
+
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Link href="https://dualbit.exchange/" className='lip fi'>
@@ -190,7 +192,7 @@ function DrawerAppBar(props) {
                 <Typography className='w1-bridgei ti2'>To this address</Typography>
                 <Typography className='ti2 lo21 Gik'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
                 <Typography className='w1-bridgei ti2'>Recipent address</Typography>
-                <Typography className='ti2 lo21 Gik'>0x0000000000000000000000000000000000000000</Typography>
+                <Typography className='ti2 lo21 Gik'>{address.slice(0, 10)}...{address.slice(-4)}</Typography>
                 <div className='tyy jbet'>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>

@@ -286,7 +286,7 @@ a {
     width: 100% !important;
 }
 
-.Mui-focused, .Mui-focused, .css-1ald77x.Mui-focused{
+.Mui-focused, .Mui-focused, .css-1ald77x.Mui-focused, .css-1v4ccyo.Mui-focused{
     color: #beb6b6 !important;
 }
 
@@ -430,9 +430,10 @@ a {
 }
 
 .Gik{
-    border: 1px solid #beb6b6!important;
+    border: 1px solid #beb6b6 !important;
     border-radius: 0.6rem;
     padding: 0.6rem;
+    color: #beb6b6 !important;
 }
 .tipi{
     width: 100%;
