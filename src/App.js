@@ -121,9 +121,7 @@ function DrawerAppBar(props) {
                   <Link href="#" className='itu non'>
                     <Typography className='fir'>Staking</Typography>
                   </Link>
-                <div className='btn-wrap1 non'>
-                  <a href="" class="btn btn--primary-border non">Connect Wallet</a>
-                </div>
+                  <div className='btn-wrap1 non'></div>
 
                 <div className='socials-link-wg non'>
                 <Link href="https://dualbit.gitbook.io/dualbit/" className='itu non'>
@@ -204,7 +202,7 @@ function DrawerAppBar(props) {
                 </Box>
                 <Box sx={{ minWidth: 120 }} className='meit'>
                   <FormControl fullWidth>
-                    <InputLabel id="demo-simple-select-label">From</InputLabel>
+                    <InputLabel id="demo-simple-select-label">Chain</InputLabel>
                     <Select
                       labelId="demo-simple-select-label"
                       id="demo-simple-select"
@@ -225,7 +223,7 @@ function DrawerAppBar(props) {
                 <div className='to'>
                   <Box sx={{ minWidth: 120 }}>
                     <FormControl fullWidth>
-                      <InputLabel id="demo-simple-select-label">To</InputLabel>
+                      <InputLabel id="demo-simple-select-label">Chain</InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
@@ -239,7 +237,7 @@ function DrawerAppBar(props) {
                   </Box>
                 </div>
                 <Typography className='w1-bridge ml'>Recipent Address</Typography>
-                <TextField id="outlined-basic" label="Enter your ethereum address" variant="outlined" className='tit'/>
+                <TextField id="outlined-basic" placeholder="Enter your ethereum address" variant="outlined" className='tit'/>
                 <div className='lastdiv'>
                   <div className='ri1'>
                   <InfoOutlinedIcon/>

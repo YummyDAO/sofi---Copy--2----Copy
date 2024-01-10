@@ -1,6 +1,4 @@
 import { Routes, Route } from "react-router-dom"
-import OrdHome from "./OrdHome"
-import Genesis from "./Genesis"
 import Bridgewithdraw from "./Bridgewithdraw"
 import App from "./App"
 import Transaction from "./Transaction"

@@ -137,6 +137,17 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     max-width: 521px !important;
     position: relative !important;
 }
+.w1-bridge44{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(219deg, #F3C427 -345.94%, #FDF8B8 -132.67%, #ECC231 109.03%, #C8952E 364.95%);
+    font-family: Space Grotesk,sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    line-height: 1rem !important;
+    margin-bottom: 10px !important;
+    max-width: 521px !important;
+    position: relative !important;
+}
 .w1-bridge22{
     -webkit-text-fill-color: transparent;
     background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
@@ -165,7 +176,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     background: linear-gradient(96deg,#fff -53.49%,hsla(0,0%,100%,.18) -53.47%,#fff 59.93%,hsla(0,0%,100%,.33) 100.41%);
     -webkit-background-clip: text;
     font-family: Space Grotesk,sans-serif !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-weight: 600 !important;
     line-height: 1.5rem !important;
     max-width: 521px !important;
@@ -259,13 +270,17 @@ a {
 
 .btn--primary-border {
     border: 2px solid #D5B359;
-    color: #D5B359;
+    color: #D5B359 !important;
     padding: 14px 16px 15px;
     transition: background .3s cubic-bezier(.25,.46,.45,.94),color .3s cubic-bezier(.25,.46,.45,.94);
 }
 
 .container1 .row1 .btn-wrap a {
     padding: 14px 21px 15px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #beb6b6 !important;
 }
 
 .itu{
@@ -359,7 +374,7 @@ a {
     max-width: 100%;
 }
 
-.btn--primary {
+.btn--primary, .button {
     background: linear-gradient(219deg, #F3C427 -345.94%, #FDF8B8 -132.67%, #ECC231 109.03%, #C8952E 364.95%);
     border: 0;
     color: #070707 !important;
@@ -381,6 +396,16 @@ a {
     font-weight: 600;
     line-height: 17px;
     padding: 14px 16px 15px;
+    text-align: center;
+}
+.btn1 {
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 0.3rem;
     text-align: center;
 }
 .bottom{

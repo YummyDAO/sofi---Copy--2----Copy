@@ -120,9 +120,7 @@ function DrawerAppBar(props) {
                   <Link href="#" className='itu non'>
                     <Typography className='fir'>Staking</Typography>
                   </Link>
-                <div className='btn-wrap1 non'>
-                  <a href="" class="btn btn--primary-border non">Connect Wallet</a>
-                </div>
+                  <div className='btn-wrap1 non'></div>
 
                 <div className='socials-link-wg non'>
                 <Link href="https://dualbit.gitbook.io/dualbit/" className='itu non'>
