@@ -23,6 +23,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';  
 import doge from './Doge_Coin.svg'
 import eth from './eth_Icon.svg'
+import { createWeb3Modal, useWeb3ModalProvider , useDisconnect, useWeb3ModalAccount,defaultConfig, useWeb3Modal  } from '@web3modal/ethers5/react'
 import arrow from "./arrow.svg"
 import favicon from "./logo12.png"
 import burger from "./burger.svg"
@@ -44,7 +45,6 @@ const navItems = ['TWITTER', 'DISCORD', 'DOCS'];
 
 ///START web3modal
 
-import { createWeb3Modal, useWeb3ModalProvider , useDisconnect, useWeb3ModalAccount,defaultConfig, useWeb3Modal  } from '@web3modal/ethers5/react'
 
 // 1. Get projectId
 const projectId = 'd3e147eaf8b56fbb496ff0601455574e'
