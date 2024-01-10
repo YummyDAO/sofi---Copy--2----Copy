@@ -274,6 +274,10 @@ a {
     padding: 14px 16px 15px;
     transition: background .3s cubic-bezier(.25,.46,.45,.94),color .3s cubic-bezier(.25,.46,.45,.94);
 }
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    background: transparent !important;
+    box-shadow: none;
+}
 
 .container1 .row1 .btn-wrap a {
     padding: 14px 21px 15px;
