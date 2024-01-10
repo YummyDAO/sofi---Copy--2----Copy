@@ -388,6 +388,11 @@ a {
     justify-content: center;
 }
 
+.Gik{
+    border: 1px solid #beb6b6!important;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+}
 .tipi{
     width: 100%;
     justify-content: space-between;
@@ -448,6 +453,6 @@ a {
         width: 21% !important;
     }
     .lo21{
-        font-size: 0.83rem;
+        font-size: 0.83rem !important;
     }
 }
