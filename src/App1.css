@@ -288,6 +288,7 @@ a {
 
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
     border: 1px solid #beb6b6 !important;
+    border-radius: 0.6rem;
 }
 
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
