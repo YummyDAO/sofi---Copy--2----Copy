@@ -286,6 +286,10 @@ a {
     width: 100% !important;
 }
 
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    border: 1px solid #beb6b6 !important;
+}
+
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
     color: #beb6b6 !important;
 }
