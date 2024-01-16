@@ -31,6 +31,7 @@ import maker from "./Maker.jpg"
 import telegram from "./Telegram (3).svg"
 import twitter from "./Twitter (1).svg"
 import dubi from "./dubi1.png"
+import paca from"./paca.jpg"
 import check from "./check-single.svg"
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import PersonAddAlt1RoundedIcon from '@mui/icons-material/PersonAddAlt1Rounded';
@@ -231,7 +232,7 @@ function DrawerAppBar(props) {
                       label="Age"
                       onChange={handleChange1}
                     >
-                      <MenuItem value={"paca"}><img className='with' src={dubi}></img>  &nbsp; Dubi</MenuItem>
+                      <MenuItem value={"paca"}><img className='with' src={paca}></img>  &nbsp; Paca</MenuItem>
                     </Select>
                   </FormControl>
                 </Box>
