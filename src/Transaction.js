@@ -243,7 +243,7 @@ function DrawerAppBar(props) {
                 <Typography className='w1-bridgei ti2'>Ticker</Typography>
                 <div className='tyy ti2 Gik'>
                   <img src={paca} className='ty2'></img>
-                  <Typography className='w1-bridgei33'>{ticker}</Typography>
+                  <Typography className='w1-bridgei33'>&nbsp; {ticker}</Typography>
                 </div>
                 <Typography className='w1-bridgei ti2'>To this address</Typography>
                 <Typography className='ti2 lo21 Gik'>{multi}</Typography>
