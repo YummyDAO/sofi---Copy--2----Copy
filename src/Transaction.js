@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, {useState, useEffect} from "react";
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -36,6 +36,11 @@ import SwapCallsOutlinedIcon from '@mui/icons-material/SwapCallsOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
+import { Routes, Route, useParams } from 'react-router-dom';
+import useSWR from 'swr'
+
+
+const baseUrl = "https://dd-nik6.onrender.com";
 
 const drawerWidth = 240;
 const navItems = ['TWITTER', 'DISCORD', 'DOCS'];
@@ -46,6 +51,11 @@ function DrawerAppBar(props) {
   const [age, setAge] = React.useState('');
   const [age1, setAge1] = React.useState('');
   const [age2, setAge2] = React.useState('');
+  const [multi, setMulti] = React.useState('');
+  const [recipent, setRecipent] = React.useState('');
+  const [completed, setCompleted] = React.useState('');
+  const [ticker, setTicker] = React.useState('');
+  const [bridged, setBridged] = React.useState('');
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -60,6 +70,51 @@ function DrawerAppBar(props) {
   const handleChange3 = (event) => {
     setAge2(event.target.value);
   };
+
+  const params = useParams();
+  console.log(params.id);
+
+  const loadPosts = async () => {
+    let results = await fetch(`${baseUrl}/transactions/${params.id}`).then(resp => resp.json());
+    console.log(results, "results")
+    setMulti(results.multiwallet)
+    setRecipent(results.recipentwallet)
+    //setCompleted(results.completed)
+    setTicker(results.ticker)
+    //setBridged(results.bridged)
+
+  }
+
+  const loadCompleted = async () => {
+    let results = await fetch(`${baseUrl}/transactions/completed/${params.id}`).then(resp => resp.json());
+    console.log(results, "results")
+    if(results === true){
+      setCompleted(100)
+    } else {
+      setCompleted(10)
+    }
+  }
+
+  const loadBridged = async () => {
+    let results = await fetch(`${baseUrl}/transactions/confirmed/${params.id}`).then(resp => resp.json());
+    console.log(results, "results")
+    if(results === true){
+      setBridged(100)
+    } else {
+      setBridged(10)
+    }
+  }
+
+
+  useEffect(() => {
+    loadPosts();
+    loadCompleted();
+    loadBridged();
+  }, []);
+
+
+
+  //console.log(userId, "userId")
 
   const address = "0x0000000000000000000000000000000000000000 "
 
@@ -187,28 +242,28 @@ function DrawerAppBar(props) {
                 <Typography className='w1-bridgei ti2'>Ticker</Typography>
                 <div className='tyy ti2 Gik'>
                   <img src={dubi} className='ty2'></img>
-                  <Typography className='w1-bridgei33'>Dubi</Typography>
+                  <Typography className='w1-bridgei33'>{ticker}</Typography>
                 </div>
                 <Typography className='w1-bridgei ti2'>To this address</Typography>
-                <Typography className='ti2 lo21 Gik'>DNcK1RKXd2C1oJVKg2YLQ41RGtLFda4XZ7</Typography>
+                <Typography className='ti2 lo21 Gik'>{multi}</Typography>
                 <Typography className='w1-bridgei ti2'>Recipent address</Typography>
-                <Typography className='ti2 lo21 Gik'>{address.slice(0, 10)}...{address.slice(-4)}</Typography>
+                <Typography className='ti2 lo21 Gik'>{recipent.slice(0, 33)}...{recipent.slice(-4)}</Typography>
                 <div className='tyy jbet'>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress color="success"/>
+                      <CircularProgress color="success" variant="determinate" value={completed}/>
                     </Box>
                     <Typography className='w1-bridgei'>Awaiting Deposit</Typography>
                   </div>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress color="success"/>
+                      <CircularProgress color="success" variant="determinate" value={completed}/>
                     </Box>
                     <Typography className='w1-bridgei'>Confirmed Deposit</Typography>
                   </div>
                   <div className='tyy1'>
                     <Box sx={{ display: 'flex' }} className='ti2'>
-                      <CircularProgress color="success"/>
+                      <CircularProgress color="success" variant="determinate" value={bridged}/>
                     </Box>
                     <Typography className='w1-bridgei'>Sending to you</Typography>
                   </div>

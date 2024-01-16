@@ -38,8 +38,9 @@ import SwapCallsOutlinedIcon from '@mui/icons-material/SwapCallsOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
-import baseUrl from './config'
 var randomstring = require("randomstring");
+
+const baseUrl = "https://dd-nik6.onrender.com";
 
 const drawerWidth = 240;
 const navItems = ['TWITTER', 'DISCORD', 'DOCS'];
@@ -75,14 +76,19 @@ function DrawerAppBar(props) {
   let navigate = useNavigate();
 
   async function Check22() {
-    const txid = randomstring.generate(12);
+    const txid = randomstring.generate(
+      {
+        length: 12,
+        charset: 'numeric'
+      }
+    );
     await fetch(`${baseUrl}/transactions`, {
       method: "POST",
       headers: {
         "content-type": "application/json"
       },
       body: JSON.stringify({
-        "txid": txid, "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x" 
+        "txid": Number(txid), "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x" 
       })
     }).then(resp => resp.json());
     console.log(txid, 'txid')
