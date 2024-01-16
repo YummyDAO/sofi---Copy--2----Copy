@@ -1,0 +1,1 @@
+export const baseUrl = "https://dd-nik6.onrender.com";

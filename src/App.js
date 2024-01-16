@@ -38,6 +38,7 @@ import SwapCallsOutlinedIcon from '@mui/icons-material/SwapCallsOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
+import baseUrl from './config'
 var randomstring = require("randomstring");
 
 const drawerWidth = 240;
@@ -49,6 +50,7 @@ function DrawerAppBar(props) {
   const [age, setAge] = React.useState('');
   const [age1, setAge1] = React.useState('');
   const [age2, setAge2] = React.useState('');
+  const [input, setInput] = React.useState('');
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -64,10 +66,25 @@ function DrawerAppBar(props) {
     setAge2(event.target.value);
   };
 
+  const change4 = (event) => {
+    setInput(event.target.value);
+    console.log("td", event.target.value)
+  };
+
+
   let navigate = useNavigate();
 
   async function Check22() {
     const txid = randomstring.generate(12);
+    await fetch(`${baseUrl}/transactions`, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify({
+        "txid": txid, "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x" 
+      })
+    }).then(resp => resp.json());
     console.log(txid, 'txid')
     navigate("/transaction/" + txid);
   }
@@ -208,7 +225,7 @@ function DrawerAppBar(props) {
                       label="Age"
                       onChange={handleChange1}
                     >
-                      <MenuItem value={1}><img className='with' src={dubi}></img>  &nbsp; Dubi</MenuItem>
+                      <MenuItem value={"paca"}><img className='with' src={dubi}></img>  &nbsp; Dubi</MenuItem>
                     </Select>
                   </FormControl>
                 </Box>
@@ -222,7 +239,7 @@ function DrawerAppBar(props) {
                       label="Age"
                       onChange={handleChange2}
                     >
-                      <MenuItem value={1}>
+                      <MenuItem value={"doge"}>
                       <img className='with' src={doge}></img>  &nbsp;
                         Doge
                         </MenuItem>
@@ -243,13 +260,13 @@ function DrawerAppBar(props) {
                         label="Age"
                         onChange={handleChange3}
                       >
-                      <MenuItem value={3}><img className='with' src={eth}></img> &nbsp;Ethereum</MenuItem>
+                      <MenuItem value={"eth"}><img className='with' src={eth}></img> &nbsp;Ethereum</MenuItem>
                       </Select>
                     </FormControl>
                   </Box>
                 </div>
                 <Typography className='w1-bridge ml'>Recipent Address</Typography>
-                <TextField id="outlined-basic" placeholder="Enter your ethereum address" variant="outlined" className='tit'/>
+                <TextField id="outlined-basic" placeholder="Enter your ethereum address" variant="outlined" className='tit' onChange={change4}/>
                 <div className='lastdiv'>
                   <div className='ri1'>
                   <InfoOutlinedIcon/>
