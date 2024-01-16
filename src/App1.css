@@ -93,7 +93,7 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-p0rm37,.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
     color: #FFFFFF !important;
 }
-.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select, .css-qiwgdb{
     align-items: center !important;
     display: flex !important;
 }
