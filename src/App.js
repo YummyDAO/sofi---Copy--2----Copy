@@ -41,6 +41,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
 import Tooltip from '@mui/material/Tooltip';
+import Alert from '@mui/material/Alert';
 var randomstring = require("randomstring");
 
 const baseUrl = "https://dd-nik6.onrender.com";
@@ -104,12 +105,14 @@ function DrawerAppBar(props) {
 
 
   let navigate = useNavigate();
+  const inputalert = (<Alert severity="warning">Invalid recipent address</Alert>)
 
   async function Check22() {
     //validateForm()
     if (input.length === 0) {
       setInput2(true)
       int = true
+     
       alert('Invalid recipent address')
       
     }
@@ -149,7 +152,7 @@ function DrawerAppBar(props) {
         "content-type": "application/json"
       },
       body: JSON.stringify({
-        "txid": Number(txid), "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x" 
+        "txid": Number(txid), "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x", "isclosed" : false 
       })
     }).then(resp => resp.json());
     console.log(txid, 'txid')
