@@ -93,6 +93,15 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-p0rm37,.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
     color: #FFFFFF !important;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tutu{
+    padding: 0 !important;
+    min-width: 42px !important;
+}
 .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select, .css-qiwgdb{
     align-items: center !important;
     display: flex !important;
@@ -206,8 +215,9 @@ body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
 }
 
 .with{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 1rem !important;
 }
 
 .primary-header .container1 {
