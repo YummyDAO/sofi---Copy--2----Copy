@@ -36,6 +36,7 @@ import SwapCallsOutlinedIcon from '@mui/icons-material/SwapCallsOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 import TextField from '@mui/material/TextField';
+import paca from"./paca.jpg"
 import { Routes, Route, useParams } from 'react-router-dom';
 import useSWR from 'swr'
 
@@ -241,7 +242,7 @@ function DrawerAppBar(props) {
                 <Typography className='w1-bridgei ti2'>Please send the inscription you would like to exchange</Typography>
                 <Typography className='w1-bridgei ti2'>Ticker</Typography>
                 <div className='tyy ti2 Gik'>
-                  <img src={dubi} className='ty2'></img>
+                  <img src={paca} className='ty2'></img>
                   <Typography className='w1-bridgei33'>{ticker}</Typography>
                 </div>
                 <Typography className='w1-bridgei ti2'>To this address</Typography>
