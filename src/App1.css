@@ -464,6 +464,7 @@ a {
 .ty2{
     width: 2rem;
     height: 2rem;
+    border-radius: 1rem;
 }
 .tyy1{
     display: flex;
