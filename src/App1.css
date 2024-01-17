@@ -512,4 +512,7 @@ a {
     .lo21{
         font-size: 0.63rem !important;
     }
+    .tutu{
+        min-width: 4px!important;
+    }
 }
