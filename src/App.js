@@ -121,6 +121,11 @@ function DrawerAppBar(props) {
       int = true
       alert('Invalid recipent address')
     }
+    if (input.length > 50) {
+      setInput2(true)
+      int = true
+      alert('Invalid recipent address')
+    }
     if (age.length === 0) {
       setInput2(true)
       int = true
