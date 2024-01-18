@@ -157,7 +157,7 @@ function DrawerAppBar(props) {
         "content-type": "application/json"
       },
       body: JSON.stringify({
-        "txid": Number(txid), "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x", "isclosed" : false, "isverified" : true
+        "txid": Number(txid), "recipentwallet": input, "bridgeamount": 0, "ticker": age, "chain": age2, "completed": false, "bridged": false, "deposit": true, "ethtxhash": "0x", "isclosed" : false, "isverified" : false
       })
     }).then(resp => resp.json());
     console.log(txid, 'txid')
